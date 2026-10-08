@@ -1,8 +1,14 @@
-<html>
+<html lang="en">
 <head>
   <title>Home</title>
+  <style>::highlight(tts-word) { background: yellow; color: black; }</style>
 </head>
 <body>
-  <h1>Theory of Computation!</h1>
+  <button id="tts-toggle" type="button" aria-pressed="false">Listen to this page</button>
+  <p id="tts-status" aria-live="polite"></p>
+  <main>
+    <h1>Theory of Computation!</h1>
+  </main>
+  <script src="tts.js"></script>
 </body>
 </html>
